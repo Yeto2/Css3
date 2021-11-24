@@ -1,0 +1,105 @@
+/* Assignment 1*/
+div{
+    margin: auto;
+    padding: 20px; 
+    width:400px;
+}
+.assign-1-shape-1 {
+    background-color:blueviolet;
+    background-color: #8A2BE2 ;
+    background-color:RGB(138, 43, 226);
+}
+.assign-1-shape-2 {
+    background-color: rgb(138 43 226 / 50%);
+}
+
+.assign-1-shape-3 {
+    background-color: rgb(138 43 226 / 10%);    
+}
+
+/* Assignment 2*/
+
+.assign-2-shape-1 {
+    height: 400px;
+    background-color: rgb(161, 161, 161);
+    background-image: url(css-assignment-5-8.png);
+    background-repeat: no-repeat;
+}
+.assign-2-shape-2 {
+    height: 400px;
+    background-color: rgb(161, 161, 161);
+    background-image: url(css-assignment-5-8.png);
+    background-repeat: repeat-y;
+}
+.assign-2-shape-3 {
+    height: 400px;
+    background-color: rgb(161, 161, 161);
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:repeat-x;
+}
+.assign-2-shape-4 {
+    height: 400px;
+    background-color: rgb(161, 161, 161);
+    background-image: url(css-assignment-5-8.png);
+}
+
+/* Assignment 3*/
+
+.assign-3-shape-1 {
+    height: 400px;
+    background-image: url(css-assignment-5-8.png);
+    background-color: rgb(177, 130, 130);
+    background-repeat: no-repeat;
+}
+.assign-3-shape-2 {
+    height: 400px;
+    background-image: url(css-assignment-5-8.png);
+    background-color: rgb(177, 130, 130);
+    background-repeat: repeat-y;
+    background-position-x:100% ;
+}
+.assign-3-shape-3 {
+    height: 400px;
+    background-image: url(css-assignment-5-8.png);
+    background-color: rgb(177, 130, 130);
+    background-repeat:repeat-x;
+    background-position-Y:100%;
+}
+.assign-3-shape-4 {
+    height: 400px;
+    background-image: url(css-assignment-5-8.png);
+    background-color: rgb(177, 130, 130);
+}
+
+/* Assignment 4*/
+
+.assign-4-shape-1 {
+    height: 400px;
+    background-image: url(css-assignment-5-8.png);
+    background-color: rgb(245, 169, 107);
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.assign-4-shape-2 {
+    height: 400px;
+    background-image: url(css-assignment-5-8.png);
+    background-color: rgb(245, 169, 107);
+    background-repeat: repeat-y;
+    background-position-x:100% ;
+    background-size: 80%;
+}
+.assign-4-shape-3 {
+    height: 400px;
+    background-image: url(css-assignment-5-8.png);
+    background-color: rgb(245, 169, 107);
+    background-repeat:repeat-x;
+    background-position-Y:100%;
+    background-size: 80%;
+}
+.assign-4-shape-4 {
+    height: 400px;
+    background-image: url(css-assignment-5-8.png);
+    background-color: rgb(245, 169, 107);
+    background-repeat: no-repeat;
+    background-position:100% 100%;
+}

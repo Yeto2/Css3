@@ -1,0 +1,40 @@
+/*assignment 1*/
+div{
+    display: inline-block;
+    padding:20px;
+    background-color: rgb(192, 192, 192);
+    outline: 5px solid rgb(10, 10, 10);
+    margin: 10px;
+}
+.one{
+    border: 5px solid red ;
+}
+.two{
+    border: 5px solid;
+    border-color: blue green;
+}
+.tree{
+    border: 5px dashed ;
+    border-color: red green blue yellow;
+}
+
+/*assignment 1*/
+
+span{
+    width: 400px;
+    background-color: rgb(207, 203, 195);
+    display: block;
+    padding: 15px;
+    margin: 30px;
+    outline: 9px solid rgb(207, 203, 195);
+}
+.foor{
+    border-left: 6px solid rgb(221, 37, 99);
+}
+.five{
+    border-left: 6px solid rgb(238, 223, 16);
+    visibility: hidden;
+}
+.six{
+    border-left: 6px solid rgb(14, 92, 46);
+}

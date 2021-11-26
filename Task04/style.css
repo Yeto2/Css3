@@ -1,0 +1,29 @@
+/*assignment01*/
+
+.parent div .title{
+    color: red;
+}
+.parent .title{
+    color: blue;
+}
+p, .title{
+    color: green;
+}
+
+/*assignment02*/
+
+.tit, .tit2{
+    color: honeydew;
+    background-color: rgb(138, 47, 47);
+    padding: 20px;
+    margin: 20px;
+    max-width: 400px;
+    min-height: 20px;
+}
+.tit{
+    width: fit-content;
+}
+.tit2{
+    max-height: 50px;
+    overflow-y: hidden;
+}

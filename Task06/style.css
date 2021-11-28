@@ -1,0 +1,68 @@
+html{
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; /* font size in the root element*/
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+/*Assignment 1*/
+
+.first, .second{
+    margin: 20px;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid;
+    text-align: center;
+}
+.one, .two{
+    background-color: darkgray;
+    padding: inherit;
+    border:inherit;
+}
+
+.first{
+    border-color: tomato;
+}
+.second{
+    border-color: teal;
+}
+
+/*Assignment 2*/
+
+.fonts{
+    font-size: 2vw;
+    text-align: center;
+}
+.font-one{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.font-two{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+
+}
+.font-three{
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
+
+}
+
+/*Assignment 3*/
+
+.fonts2{
+    text-align: center;
+}
+.font-foor{
+    font-size: 2.5rem; /* 2.5rem = 50px */
+}
+.font-five{
+    font-size: 2rem; /* 2rem = 40px */
+}
+.font-six{
+    font-size: 1.5rem; /* 1.5rem = 50px */
+}

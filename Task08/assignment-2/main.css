@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+div{
+    width: 400px;
+    margin: 36px auto;
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #ff0000;
+    border-left-color:darkturquoise;
+    border-right-color:darkturquoise;
+}
+span{
+    background-color: darkturquoise;
+    padding: 4px 14px;
+    color: white;
+    position: absolute;
+}
+.top-left{
+    border-right: 2px solid red;
+    left: 439px;
+    top: 24px;
+}
+.bottom-left{
+    border-right: 2px solid red;
+    left: 439px;
+    top: 141px;
+}
+.top-right{
+    border-left: 2px solid red;
+    right: 445px;
+    top: 24px;
+}
+.bottom-right{
+    border-left: 2px solid red;  
+    right: 445px;
+    top: 140px;  
+}

@@ -1,0 +1,36 @@
+body{
+    text-transform: capitalize;
+}
+.all{
+    width: 400px;
+    height: 400px;
+    margin: 20px 0px 0px 20px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    position:absolute;
+}
+.black{
+    background-color: black;
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+    top: 80px;
+}
+.red{
+    background-color: rgb(255, 0, 0);
+    z-index: 4;
+    top: 40px;
+    left: 40px;
+}
+.green{
+    background-color: rgb(1, 114, 6);
+    z-index: 3;
+    top: 20px;
+    left: 20px;
+}
+.blue{
+    background-color: rgb(0, 147, 233);
+    z-index: 1;
+}

@@ -1,0 +1,28 @@
+*{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    background-color: #eee;
+    width: 400px;
+    margin: 25px auto;
+    padding: 30px;
+    font-weight: bold;
+    border-left: 6px solid rgb(216, 35, 126);
+}
+p::before {
+    content: attr(data-person);
+    background-color: #eee;
+    padding: 16px;
+    margin-right: 87px;
+    margin-left: -167px;
+}
+p::after {
+    content: "";
+    left: 418px;
+    margin-top: -8px;
+    position: absolute;
+    border-width: 17px;
+    border-style: solid;
+    border-color: transparent #d8237e transparent transparent;
+}

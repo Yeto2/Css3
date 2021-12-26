@@ -1,0 +1,19 @@
+*{
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+div {
+    margin: 20px auto;
+    width: 350px;
+    background-color: #eee;
+    font-weight: bolder;
+    padding: 26px;
+    text-align: center;
+}
+div::first-letter {
+    background-color: red;
+    padding: 19PX 15px;
+    margin-left: -67px;
+}

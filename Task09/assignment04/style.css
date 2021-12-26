@@ -1,0 +1,21 @@
+*{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    background-color: #eee;
+    width: 400px;
+    padding: 20px;
+    border-right:4px Solid tomato;
+    counter-increment: myclc;
+    margin: 10px auto;
+}
+p::before {
+    content: counter(myclc);
+    color: #fff;
+    background-color: tomato;
+    position: relative;
+    padding: 20px;
+    left: -18px;
+}

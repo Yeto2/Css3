@@ -1,0 +1,37 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.parent{
+    background-color: #eee;
+    margin: 60px auto;
+    width: 380px;
+    height: 190px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+
+}
+.child{
+    background-color: rgb(134, 131, 131);
+    margin-top: 20px;
+    padding: 20px;
+}
+.parent:hover{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.5s 0.5s ease-out;
+    -webkit-transition: 0.5s 0.5s ease-out;
+    -moz-transition: 0.5s 0.5s ease-out;
+    -ms-transition: 0.5s 0.5s ease-out;
+    -o-transition: 0.5s 0.5s ease-out;
+}
+.parent:hover .child{
+    margin-top: 40px;
+    transition:  0.5s 1s ease-out;
+    -webkit-transition:  0.5s 1s ease-out;
+    -moz-transition:  0.5s 1s ease-out;
+    -ms-transition:  0.5s 1s ease-out;
+    -o-transition:  0.5s 1s ease-out;
+}

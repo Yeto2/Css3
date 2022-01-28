@@ -1,0 +1,95 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+div{
+    margin: 40px auto;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transform: perspective(600);
+    -webkit-transform: perspective(600);
+    -moz-transform: perspective(600);
+    -ms-transform: perspective(600);
+    -o-transform: perspective(600);
+}
+
+/* First Flip Card Example */
+
+.first::after , .first::before{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+.first::after {
+    content: "back";
+    background-color: #1692fc;
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
+}
+.first::before{
+    content: "front";
+    background-color: #fa3664;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.first:hover{
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+}
+
+/* Second Flip Card Example */
+
+.second::after , .second::before{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+.second::after {
+    content: "back";
+    background-color: #1692fc;
+    transform:rotateX(180deg);
+    -webkit-transform:rotateX(180deg);
+    -moz-transform:rotateX(180deg);
+    -ms-transform:rotateX(180deg);
+    -o-transform:rotateX(180deg);
+}
+.second::before{
+    content: "front";
+    background-color: #fa3664;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.second:hover{
+    transform: rotateX(-180deg);
+    -webkit-transform: rotateX(-180deg);
+    -moz-transform: rotateX(-180deg);
+    -ms-transform: rotateX(-180deg);
+    -o-transform: rotateX(-180deg);
+}

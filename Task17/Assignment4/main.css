@@ -1,0 +1,220 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 0;
+}
+.el{
+    margin: 70px auto;
+    padding: 10px;
+    width: 580px;
+    height: 510px;
+    background-color: #eee;
+    border: 1px black solid;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.e >div , .l >div{
+    width: 70px;
+    height: 100%;
+    background-color: black;
+}
+.e{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.e1{
+    grid-row: 1/4;
+}
+.e2{
+    top: 300px;
+    left: 455px;
+    
+}
+.e3{
+    top: 521px;
+    left: 455px;
+}
+.e4{
+    left: 455px;
+}
+.e>.e2 , .e>.e3, .e>.e4 , .l>.l2{
+    position: absolute;
+    height: 70px;
+    width: 190px;
+    background-color: black;
+}
+.l{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.l>.l1{
+    grid-row: 1/4;
+    background-color: black;
+}
+.l>.l2{
+    top: 521px;
+    left: 745px;
+}
+
+/* animation part*/
+.el::before{
+    content:"";
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    position: absolute;
+    left: 590px;
+    top: 95px;
+    z-index: 3;
+    animation-name: moveE;
+    animation-duration:   8s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-out;
+}
+@keyframes moveL{
+
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 1;
+    }
+    10% {
+        left: 690px;
+        top: 534px;
+    }
+    20% {
+        left: 690px;
+        top: 95px;
+        opacity: 1;
+    }
+    30% {
+        left: 690px;
+        top: 95px;
+        opacity: 0;
+    }
+    40% {
+        left: 690px;
+        top: 95px;
+        opacity: 0;
+    }
+    50% {
+        left: 690px;
+        top: 95px;
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    60% {
+        left: 690px;
+        top: 534px;
+        opacity: 0;
+    }
+    70% {
+        left: 690px;
+        top: 95px;
+        opacity: 0;
+    
+    }
+    80% {
+        left: 690px;
+        top: 95px;
+        opacity: 0;
+    }
+    90% {
+        left: 690px;
+        top: 95px;
+        opacity: 0;
+    }
+    100% {
+        left: 690px;
+        top: 95px;
+        opacity: 0;
+    }
+
+}
+.el::after{
+    content:"";
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    position: absolute;
+    left: 880px;
+    top: 536px;
+    animation-name: moveL;
+    animation-duration:   3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-out;
+}
+
+@keyframes moveE {
+    0% {
+    left: 405px;
+    top: 95px;
+    }
+    10% {
+        left: 405px;
+        top: 315px;
+    }
+    20% {
+        left: 590px;
+        top: 315px;
+    }
+    30% {
+        left: 405px;
+        top: 315px;
+    }
+    40% {
+        left: 405px;
+        top: 540px;
+    }
+    50% {
+        left: 590px;
+        top: 540px;
+    }
+    60% {
+        left: 405px;
+        top: 540px;
+    }
+    70% {
+        left: 405px;
+        top: 95px;
+    }
+    75% {
+        left: 590px;
+        top: 95px;
+        animation-play-state: paused;
+
+    }
+    80% {
+        left: 590px;
+        top: 95px;
+        animation-play-state: paused;
+
+    }
+    85% {
+        left: 590px;
+        top: 95px;
+        animation-play-state: paused;
+    }
+    90% {
+        left: 590px;
+        top: 95px;
+        animation-play-state: paused;
+    }
+    95% {
+        left: 590px;
+        top: 95px;
+        animation-play-state: paused;
+    }
+    100% {
+        left: 590px;
+        top: 95px;
+        animation-play-state: paused;
+    }
+    
+}

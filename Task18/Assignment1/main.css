@@ -1,0 +1,9 @@
+*{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+div.main.red{
+    color: red;
+}

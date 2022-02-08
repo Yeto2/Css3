@@ -1,0 +1,104 @@
+*{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20PX;
+}
+.container::after{
+    content: "large screan";
+    position: absolute;
+    top: 400px;
+    left: 560px;
+    background-color: tomato;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.prod{
+    background-color: #eee;
+    text-align: center;
+    padding-top: 10px;
+}
+b{
+    color: #039789;
+}
+p{
+    color: #1d1d1d;
+}
+.one{
+    grid-column: 1/3;
+}
+.four{
+    grid-column: 1/3;
+}
+
+/* Media Queries*/
+
+@media (max-width:768px) {
+    .container{
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 20PX;
+    }
+    .container::after{
+        content: "medium screan";
+        position: absolute;
+        top: 250px;
+        left: 270px;
+        background-color: tomato;
+        padding: 10px;
+        font-size: 30px;
+        color: white;
+        border-top-left-radius:10px;
+        border-bottom-right-radius:10px;
+    }
+    b{
+        color: red;
+    }
+    .one{
+        grid-column: 1/4;
+    }
+    .four{
+        grid-column: 3/4;
+    }
+}
+@media (max-width:425px) {
+    .container{
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        gap: 20PX;
+    }
+    .container::after{
+        content: "small screan";
+        position: absolute;
+        top: 500px;
+        left: 95px;
+        background-color: tomato;
+        padding: 10px;
+        font-size: 30px;
+        color: white;
+        border-top-left-radius:10px;
+        border-bottom-right-radius:10px;
+    }
+    b{
+        color: black;
+    }
+    .one{
+        grid-column: 1/2;
+    }
+    .four{
+        grid-column: 1/2;
+    }
+}
